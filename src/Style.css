@@ -1,0 +1,87 @@
+.App {
+    background: yellowgreen;
+    margin: 50px;
+    width: 50%;
+    height: 600px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transform: translate(50%,0%);
+    border: 1px solid black;
+}
+.heading  {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main {
+width: 100%;
+height: 30px;
+/* background: red; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.done label {
+    text-decoration: line-through;
+}
+.pending,.done {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    /* background: yellow; */
+}
+.second-main,.second-main-complete {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.second-main-complete {
+    background: green;
+}
+.delete-btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 10px; */
+}
+.label-text {
+    font-weight: bold;
+    color: gray;
+}
+.done {
+
+}
+.input-check {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.input-box {
+border-radius: 5px;
+border: 1px solid black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-left: 5px;
+}
+.addTask {
+    background: green;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
